@@ -1,8 +1,8 @@
-# Astro + React + Vue Counter Demo
+# Astro + React Counter Demo
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bfd049f0-9819-48e2-ac79-f76edd967be8/deploy-status)](https://app.netlify.com/sites/dreamy-heisenberg-535c2e/deploys)
 
-This is an incredibly small demo of using React and Vue together in an Astro project, with a variable passed in to both.
+This is an incredibly small demo of using React in an Astro project, with a prop passed in.
+As a bonus, I am using a Svelte component out of the box in the same app, just underneath a React component.
 
 ## Commands
 

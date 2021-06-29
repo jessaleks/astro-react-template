@@ -1,6 +1,6 @@
 ---
 import CounterReact from '../components/CounterReact.jsx';
-import CounterVue from '../components/CounterVue.vue';
+import CounterSvelte from '../components/CounterSvelte.svelte'
 
 let variableExample = '<=== look';
 ---
@@ -39,10 +39,10 @@ let variableExample = '<=== look';
              show up, but not work. They will work when they are
              visible on the page (so you could have it at the
              bottom of a long page and the JS wouldn't load until
-             you get to the component showing up) 
+             you get to the component showing up)
         -->
         <CounterReact:visible demo={variableExample} />
-        <CounterVue:visible demo={variableExample} />
+        <CounterSvelte:visible demo={variableExample}/>
 
     </main>
 </body>
